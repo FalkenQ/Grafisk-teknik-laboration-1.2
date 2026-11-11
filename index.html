@@ -6,29 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hem | Min portfölj</title>
 
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+        <link rel="icon" type="x-icon" href="images/favicon.ico">
+
     </head>
 
     <body>
         <header>
             <a href="index.html">
-                <img src="images/logo.svg" alt="Min logotyp">
+                <img src="images/logo.svg" id="logo" alt="Min logotyp">
             </a>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="about.html">Om mig</a></li>
+                    <li><a href="pictures.html">Bilder</a></li>
+                </ul>
+            </nav>
+
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="about.html">Om mig</a></li>
-                <li><a href="pictures.html">Bilder</a></li>
-            </ul>
-        </nav>
-
         <main>
-            <h1>Min Portfölj</h1>
             <section class="hero">
                 <img src="images/header.png" alt="Hero-bild">
                 <h1>Min Portfölj</h1>
             </section>
+            <section class="pictures">
+                <img src="images/bilserie001.jpg" alt="Blommor på sidan av ett berg">
+                <img src="images/bilserie003.jpg" alt="Troligen en highland cattle på en äng">
+                <img src="images/bilserie005.jpg" alt="En person som dyker">
+            </section>
+
+            <p>I denna uppgift ska jag skapa en hemsida med tre olika sidor, för att visa att jag kan bildbehandla bilder och
+                implementera dem på en hemsida. Jag kommer att använda mig av photopea och pixlr för att redigera bilderna.
+            </p>
         </main>
     </body>
 </html>
