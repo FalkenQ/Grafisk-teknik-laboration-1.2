@@ -71,8 +71,15 @@ body {
     gap: 30px;
 }
 
-.pictures img {
-    width: 400px;
+.portfolio-picture {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+}
+
+.portfolio-picture img {
+    display: block;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
@@ -83,16 +90,25 @@ body {
     background-color: #f0f0f0;
     border-radius: 10px;
     padding: 20px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin: auto;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
 }
+
+.about-assignment {
+    font-size: 1.3rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1rem auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+
 
 p {
     font-size: 1.5rem;
     width: 50%;
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -133,14 +149,14 @@ p {
     }
 
     .pictures img {
-        width: 80%;
+        width: 100%;
         max-width: 300px;
+        margin: auto;
     }
 
     .pictures p {
         width: 80%;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 1rem auto;
     }
 
     .about img {
@@ -150,4 +166,6 @@ p {
     .about p {
         width: 80%;
     }
+
+
 }
