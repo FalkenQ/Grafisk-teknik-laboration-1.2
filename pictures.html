@@ -32,10 +32,25 @@
         </header>
 
         <main>
-            <section class="hero">
-                <img src="images/header.png" alt="Hero-bild">
-                <h1>Min Portfölj</h1>
-            </section>
+            <picture class="hero-picture">
+                <source
+                type="image/avif"
+                srcset="images2/hero-1320.avif 1320w,
+                        images2/hero-1920.avif 1920w">
+
+                <img
+                src="images2/hero-1320.png"
+                srcset="images2/hero-1320.png 1320w,
+                        images2/hero-1920.png 1920w"
+                sizes="100vw"
+                width="1920"
+                height="864"
+                fetchpriority="high"
+                alt="Berglandskap i Schweiz">
+            </picture>
+
+            <h1>Min Portfölj</h1>
+
             <section class="pictures">
                 <img src="images/bilserie007.jpg" alt="En person som dyker">
                 <img src="images/bilserie001.jpg" alt="En person som dyker">
