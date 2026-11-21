@@ -13,6 +13,12 @@ header {
     height: auto;
 }
 
+h1 {
+    text-decoration: underline;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -39,10 +45,14 @@ a {
     align-items: center;
 }
 
-.hero img {
+.hero-picture img {
+    display: block;
     width: 100%;
     height: auto;
-    filter: opacity(0.95);
+}
+
+body {
+    margin: 0;
 }
 
 .hero h1 {
