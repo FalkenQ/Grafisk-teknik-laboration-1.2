@@ -71,6 +71,21 @@ body {
     gap: 30px;
 }
 
+.diver-pictures,
+.cow-pictures,
+.flower-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem 0;
+    max-width: 1600px;
+    margin: 3rem auto;
+    gap: 2rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+
 .portfolio-picture {
     display: block;
     width: 100%;
@@ -94,22 +109,36 @@ body {
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
 }
 
+.diver-pictures p,
+.cow-pictures p,
+.flower-pictures p {
+    font-size: 1.3rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 0 10rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+
 .about-assignment {
     font-size: 1.3rem;
     background-color: #f0f0f0;
     border-radius: 10px;
-    padding: 20px;
+    width: 80%;
+    padding: 1rem;
     margin: 1rem auto;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.about-picture {
+    display: block;
+    width: 100%;
 }
 
 
 p {
     font-size: 1.5rem;
-    width: 50%;
     text-align: center;
-    padding: 1rem;
-    margin: auto;
 }
 
 .about {
@@ -159,8 +188,29 @@ p {
         margin: 1rem auto;
     }
 
+    .diver-pictures p,
+    .cow-pictures p,
+    .flower-pictures p {
+        padding: 0.75rem;
+        margin: 0.75rem;
+    }
+    
+    .diver-pictures,
+    .cow-pictures,
+    .flower-pictures {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        gap: 1rem;
+    }
+
     .about img {
         width: 50%;
+        height: auto;
+    }
+
+    .portfolio-picture {
+        width: 45%;
+        height: auto;
     }
 
     .about p {
