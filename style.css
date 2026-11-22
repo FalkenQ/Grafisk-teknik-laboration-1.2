@@ -226,8 +226,8 @@ p {
         width: 100%;
         max-width: 350px;
         height: auto;
-        padding: 0 auto;
-        padding-top: 2rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .portfolio-picture {
