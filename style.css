@@ -66,6 +66,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem 0;
     max-width: 1600px;
     margin: auto;
     gap: 30px;
@@ -101,11 +104,19 @@ body {
 }
 
 .pictures p {
-    font-size: 1.3rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.about-me {
     background-color: #f0f0f0;
     border-radius: 10px;
-    padding: 20px;
-    margin: auto;
+    padding: 1.25rem;
+    width: 60%;
+    margin: 2rem auto;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
 }
 
@@ -144,20 +155,23 @@ p {
 .about {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
 }
 
-.about img {
-    width: 20%;
+.selfportrait img {
+    display: block;
     height: auto;
-    align-self: center;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
-    margin-bottom: 20px;
+    max-width: 400px;
+    margin: auto;
 }
 
 .about p {
     font-size: 1.3rem;
-    background-color: #f0f0f0;
+    background-color: antiquewhite;
     border-radius: 10px;
     padding: 20px;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
@@ -175,6 +189,11 @@ p {
 
     .hero h1 {
         font-size: 1.75rem;
+    }
+
+    .pictures {
+        padding: 0.75rem;
+        margin: 0.75rem;
     }
 
     .pictures img {
@@ -204,8 +223,11 @@ p {
     }
 
     .about img {
-        width: 50%;
+        width: 100%;
+        max-width: 350px;
         height: auto;
+        padding: 0 auto;
+        padding-top: 2rem;
     }
 
     .portfolio-picture {

@@ -51,8 +51,24 @@
             <h1>Om mig</h1>
 
             <section class="about">
-                <img src="images/portrait.png" alt="Porträtt av mig">
-                <p>Mitt namn är Linus Falk, jag är 25 år gammal och bor i Enköping.
+                <picture class="selfportrait">
+                    <source
+                    type="image/avif"
+                    srcset="images2/portrait-1050.avif">
+
+                    <source
+                    type="image/webp"
+                    srcset="images2/portrait-1050.webp">
+
+                    <img
+                    src="images2/portrait-1050.jpg"
+                    width="1050"
+                    height="1412"
+                    alt="Porträtt av mig">
+                </picture>
+
+                <p class="about-me">
+                    Mitt namn är Linus Falk, jag är 25 år gammal och bor i Enköping.
                     Jag har under de senaste 5 åren jobbat som truckförare på Martin & Serveras fryslager.
                     Ett av mina favorit intressen är att resa och upptäcka nya platser. Hero-bilden är ifrån min resa till 
                     Schweiz, när vi vandrade genom Schäfler ridge.
