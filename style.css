@@ -11,12 +11,18 @@ header {
 #logo {
     width: 200px;
     height: auto;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.5));
+    padding-left: 1rem;
 }
 
 h1 {
     text-decoration: underline;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.navbar {
+    padding: 2rem;
 }
 
 .navbar ul{
@@ -27,7 +33,10 @@ h1 {
     margin-right: 50px;
     margin: 0;
     padding-right: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 li {
@@ -183,8 +192,12 @@ p {
         width: 100px;
     }
 
+    .navbar {
+        padding: 1.5rem 0.25rem;
+    }
+
     .navbar ul {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     .hero h1 {
