@@ -192,8 +192,9 @@ p {
     }
 
     .pictures {
-        padding: 0.75rem;
-        margin: 0.75rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        gap: 1rem;
     }
 
     .pictures img {
